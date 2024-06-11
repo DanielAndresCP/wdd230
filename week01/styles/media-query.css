@@ -1,0 +1,25 @@
+body {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid #646464;
+    padding: 2rem;
+    background-color: #a2c1e0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+section {
+    padding: 2rem;
+    background-color: white;
+}
