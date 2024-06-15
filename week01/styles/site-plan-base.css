@@ -1,0 +1,103 @@
+:root {
+    --primary-color: #1f4096;
+    --primary-bg-color: var(--primary-color);
+    --primary-text-color: #ffffff;
+
+    --secondary-color: #00aeef;
+    --secondary-bg-color: var(--secondary-color);
+    --secondary-text-color: #000000;
+
+    --neutral-light-color: #F2E8CF;
+    --neutral-light-bg-color: var(--neutral-light-color);
+    --neutral-light-text-color: #000000;
+
+    --highlight-color: #f5821f;
+    --highlight-bg-color: var(--highlight-color);
+    --highlight-text-color: #000000;
+
+    --font-family: "Source Sans 3", Helvetica, sans-serif;
+    --font-base-weight: 400;
+    --font-thin-weight: 300;
+    --font-bold-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+button {
+    font-family: var(--font-family);
+    font-weight: var(--font-base-weight);
+    font-style: normal;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.pad-05 {
+    /* display: inline; */
+    padding: 0.5rem;
+}
+
+.primary-bg {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+.primary-text {
+    color: var(--primary-color);
+}
+
+.secondary-bg {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+}
+
+.secondary-text {
+    color: var(--secondary-color);
+}
+
+.neutral-light-bg {
+    background-color: var(--neutral-light-bg-color);
+    color: var(--neutral-light-text-color);
+}
+
+.neutral-light-text {
+    color: var(--neutral-light-color);
+}
+
+.highlight-bg {
+    background-color: var(--highlight-bg-color);
+    color: var(--highlight-text-color);
+}
+
+.highlight-text {
+    color: var(--highlight-color);
+}
+
+
+.margin-0 {
+    margin: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+ul li {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+
+a {
+    text-decoration: underline;
+}
+
+button {
+    border: 0px solid transparent;
+    font-size: 1rem;
+    border-radius: 10px;
+}
