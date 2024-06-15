@@ -7,21 +7,26 @@
 
 /* Global Variables */
 :root {
-    --primary-color: #2A9D8F;
+    --primary-color: #386641;
     --primary-bg-color: var(--primary-color);
-    --primary-text-color: #000000;
+    --primary-text-color: #ffffff;
 
-    --neutral-color: #264653;
-    --neutral-bg-color: var(--neutral-color);
-    --neutral-text-color: #ffffff;
+    --neutral-light-color: #F2E8CF;
+    --neutral-light-bg-color: var(--neutral-light-color);
+    --neutral-light-text-color: #000000;
+    
+    --neutral-dark-color: #211e16;
+    --neutral-dark-bg-color: var(--neutral-dark-color);
+    --neutral-dark-text-color: #ffffff;
 
-    --highlight-color: #E76F51;
+    --highlight-color: #694a38;
     --highlight-bg-color: var(--highlight-color);
-    --highlight-text-color: #000000;
+    --highlight-text-color: #ffffff;
 
-    --font-family: "Source Sans 3", sans-serif;
+    --font-family: "Source Sans 3", Helvetica, sans-serif;
     --font-base-weight: 400;
     --font-thin-weight: 300;
+    --font-bold-weight: 500;
 }
 
 
@@ -40,13 +45,13 @@ nav {
     flex-direction: column;
     /* padding: 1rem; */
     gap: 0;
-    background-color: var(--neutral-bg-color);
+    background-color: var(--neutral-light-bg-color);
     justify-content: center;
 }
 
 nav a {
-    color: var(--neutral-text-color);
-    font-weight: var(--font-thin-weight);
+    color: var(--neutral-light-text-color);
+    /* font-weight: var(--font-bold-weight); */
     font-size: 1.3rem;
     padding: 1rem;
     text-decoration: none;
@@ -56,14 +61,16 @@ nav a {
 nav a.current-page,
 nav a:hover {
     background-color: var(--highlight-bg-color);
+    color: #ffffff;
 }
 
 header {
     background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
     display: flex;
     padding: 2rem;
     gap: 2rem;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -71,6 +78,7 @@ header {
 header img {
     border-radius: 10px;
     box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.4);
+    width: 5rem;
 }
 
 header span {
@@ -78,8 +86,8 @@ header span {
 }
 
 footer {
-    background-color: var(--neutral-bg-color);
-    color: var(--neutral-text-color);
+    background-color: var(--neutral-dark-bg-color);
+    color: var(--neutral-dark-text-color);
     padding: 2rem;
 }
 
@@ -112,13 +120,14 @@ h6 {
 }
 
 .card {
-    background-color: beige;
+    background-color: var(--neutral-light-bg-color);
     border-radius: 10px;
     overflow: hidden;
 }
 
 .card h2 {
     background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
     padding: 1rem;
     /* text-align: center; */
 }
