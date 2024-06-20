@@ -1,0 +1,29 @@
+@media screen and (min-width:768px) {
+
+    #mobile-hamburger-menu {
+        display: none;
+    }
+
+    header nav,
+    .menu-logo {
+        flex-direction: row;
+    }
+
+    header nav {
+        gap: 2rem;
+
+    }
+
+    header nav a:not(.menu-logo) {
+        display: block;
+        padding: 1rem;
+    }
+
+    .top-call-to-action{
+        flex-direction: row;
+    }
+
+    .community-and-weather{
+        flex-direction: row;
+    }
+}
