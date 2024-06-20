@@ -27,8 +27,12 @@
     <header>
         <img src="images/profile-picture.jpg" alt="Daniel Andres Concha Parra profile picture">
         <span>Daniel Andres Concha Parra</span>
+        <span id="color-mode-toggle"></span>
     </header>
-    <nav>
+    <nav class="mobile-open">
+        <div id="mobile-ham-menu">
+            <button id="mobile-ham-menu-button"></button>
+        </div>
         <a href="./" class="current-page">Home</a>
         <a href="">Chamber</a>
         <a href="">Site Plan</a>
@@ -82,7 +86,8 @@
             <p id="lastModified"></p>
         </div>
     </footer>
-    <script src="scripts/getDates.js"></script>
+    <script src="./scripts/getDates.js"></script>
+    <script src="./scripts/headerAndMenu.js"></script>
 </body>
 
 </html>

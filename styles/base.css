@@ -14,7 +14,7 @@
     --neutral-light-color: #F2E8CF;
     --neutral-light-bg-color: var(--neutral-light-color);
     --neutral-light-text-color: #000000;
-    
+
     --neutral-dark-color: #211e16;
     --neutral-dark-bg-color: var(--neutral-dark-color);
     --neutral-dark-text-color: #ffffff;
@@ -40,6 +40,35 @@ body {
     font-style: normal;
 }
 
+body.dark-mode {
+    background-color: var(--neutral-dark-color);
+    color: var(--neutral-dark-text-color);
+}
+
+#mobile-ham-menu {
+    display: block;
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+}
+
+#mobile-ham-menu-button {
+    border: 0px solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    color: var(--primary-text-color);
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+#mobile-ham-menu-button::before {
+    content: "☰";
+}
+
+nav.mobile-open #mobile-ham-menu-button::before {
+    content: "✖";
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -50,12 +79,17 @@ nav {
 }
 
 nav a {
+    display: none;
     color: var(--neutral-light-text-color);
     /* font-weight: var(--font-bold-weight); */
     font-size: 1.3rem;
     padding: 1rem;
     text-decoration: none;
     text-align: center;
+}
+
+nav.mobile-open a {
+    display: block;
 }
 
 nav a.current-page,
@@ -81,14 +115,33 @@ header img {
     width: 5rem;
 }
 
-header span {
+header span:not(#color-mode-toggle) {
     font-size: 2rem;
 }
+
+header #color-mode-toggle {
+    padding: 0.5rem;
+}
+
+header #color-mode-toggle::before {
+    content: "🌑";
+}
+
+.dark-mode header #color-mode-toggle::before {
+    content: "🌞";
+}
+
 
 footer {
     background-color: var(--neutral-dark-bg-color);
     color: var(--neutral-dark-text-color);
     padding: 2rem;
+}
+
+.dark-mode footer {
+    background-color: var(--neutral-light-bg-color);
+    color: var(--neutral-light-text-color);
+
 }
 
 .max-w-md {
@@ -121,6 +174,7 @@ h6 {
 
 .card {
     background-color: var(--neutral-light-bg-color);
+    color: var(--neutral-light-text-color);
     border-radius: 10px;
     overflow: hidden;
 }
