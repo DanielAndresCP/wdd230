@@ -19,11 +19,31 @@
         padding: 1rem;
     }
 
-    .top-call-to-action{
+    .top-call-to-action {
         flex-direction: row;
     }
 
-    .community-and-weather{
+    .community-and-weather {
         flex-direction: row;
+    }
+
+    .business-card {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .business-card.reverse {
+        flex-direction: row-reverse;
+    }
+    
+    .events-container{
+        flex-direction: row;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    footer>div{
+        flex-direction: row;
+        gap: 2rem;
     }
 }

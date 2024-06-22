@@ -107,6 +107,19 @@ footer>div {
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+footer>div * {
+    color: white;
+}
+
+footer>div>div :first-child {
+    margin-top: 0;
 }
 
 main {
@@ -279,7 +292,7 @@ header nav a:not(.menu-logo):hover {
     flex-direction: column-reverse;
     justify-content: space-between;
     gap: 2rem;
-    padding: 2rem;
+    margin: 4rem 1rem;
 }
 
 .highlight-button {
@@ -305,7 +318,7 @@ header nav a:not(.menu-logo):hover {
 .community-and-weather {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    margin: 4rem 1rem;
     gap: 2rem;
 }
 
@@ -322,4 +335,75 @@ header nav a:not(.menu-logo):hover {
     float: left;
     padding-right: 1rem;
     width: 50%;
+}
+
+.business-spotlight {
+    margin: 4rem 1rem;
+}
+
+.business-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.business-card-text {
+    display: block;
+    flex-basis: 50%;
+}
+
+.business-card-img {
+    display: block;
+    flex-basis: 50%;
+}
+
+.business-card-img img {
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+
+
+.bottom-call-to-action {
+    margin: 4rem 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.bottom-call-to-action h2 {
+    color: var(--primary-text-color);
+}
+
+
+.current-events {
+    margin: 4rem 1rem;
+}
+
+.events-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+.events-container .event {
+    flex-basis: calc(50% - 1rem);
+}
+
+.event .event-info {
+    border-left: 5px solid var(--primary-color);
+    padding-left: 0.5rem;
+}
+
+.event .event-location::before {
+    content: "Location: ";
+}
+
+.event .event-date::before {
+    content: "Date: ";
 }

@@ -1,0 +1,1 @@
+document.querySelector("#last-modified-date").textContent = document.lastModified.toString()
