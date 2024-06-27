@@ -25,7 +25,7 @@
 
 <body>
     <header>
-        <img src="images/profile-picture.jpg" alt="Daniel Andres Concha Parra profile picture">
+        <img src="images/profile-picture.webp" alt="Daniel Andres Concha Parra profile picture">
         <span>Daniel Andres Concha Parra</span>
         <span id="color-mode-toggle"></span>
     </header>
@@ -90,8 +90,14 @@
                 <h2>Information </h2>
                 <p>Toloria, Madagascar</p>
                 <p>Weather: Sunny 20°C</p>
-                <p>Page Visits: 500</p>
+                <p>Page Visits: <span id="page-visit-count"></span></p>
             </section>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243766.42588017657!2d-72.34353538339506!3d-36.605954031290835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966927ed6a0fa0cd%3A0x901c1c63c594d7!2zQ2hpbGzDoW4sIMORdWJsZQ!5e0!3m2!1ses!2scl!4v1719518818355!5m2!1ses!2scl"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
     <footer>
@@ -102,6 +108,7 @@
     </footer>
     <script src="./scripts/getDates.js"></script>
     <script src="./scripts/headerAndMenu.js"></script>
+    <script src="./scripts/pageVisitCount.js"></script>
 </body>
 
 </html>
