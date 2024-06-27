@@ -21,4 +21,8 @@
         display: block;
         padding: 1.3rem;
     }
+
+    .temple-hero-img .temple-hero-label {
+        font-size: 1.5rem;
+    }
 }
