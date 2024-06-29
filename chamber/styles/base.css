@@ -79,6 +79,9 @@ button {
     font-size: 1rem;
 }
 
+strong {
+    color: var(--primary-color);
+}
 
 h1,
 h2,
@@ -87,6 +90,11 @@ h4,
 h5,
 h6 {
     color: var(--primary-color);
+}
+
+main>h1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 body,
@@ -263,7 +271,7 @@ header nav a:not(.menu-logo):hover {
 }
 
 .hero-section .hero-background-img {
-    background-image: url("../images/hero-chillan-cathedral.jpg");
+    background-image: url("../images/hero-chillan-cathedral.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -406,4 +414,72 @@ header nav a:not(.menu-logo):hover {
 
 .event .event-date::before {
     content: "Date: ";
+}
+
+/* ===Discover=== */
+.discover-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.discover-container>aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--neutral-light-color);
+    color: var(--neutral-light-text-color);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.discover-container>aside :first-child {
+    margin-bottom: 0;
+}
+
+.discover-container .discover-aside-card {
+    padding: 1rem;
+    border-radius: 10px;
+
+    background-color: white;
+    color: #000000;
+}
+
+.discover-container .discover-aside-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.discover-container .discover-aside-card p {
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.discover-container .places-photo-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.discover-container .places-photo-gallery figure {
+    margin: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.discover-container .places-photo-gallery figure figcaption {
+    padding: 0.5rem;
+    background-color: var(--neutral-light-color);
+    color: var(--neutral-light-text-color);
+}
+
+.discover-container .places-photo-gallery figure img {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
 }

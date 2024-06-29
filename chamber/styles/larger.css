@@ -35,15 +35,31 @@
     .business-card.reverse {
         flex-direction: row-reverse;
     }
-    
-    .events-container{
+
+    .events-container {
         flex-direction: row;
         gap: 2rem;
         flex-wrap: wrap;
     }
 
-    footer>div{
+    footer>div {
         flex-direction: row;
         gap: 2rem;
+    }
+
+    .discover-container {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .discover-container .places-photo-gallery {
+        gap: 2rem;
+    }
+
+    .discover-container .places-photo-gallery figure {
+        transition: box-shadow ease-in-out 200ms;
+    }
+
+    .discover-container .places-photo-gallery figure:hover {
+        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.5);
     }
 }
