@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Andres Concha Parra - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development course assignment portal of Daniel Andres Concha Parra">
+    <meta name="author" content="Daniel Andres Concha Parra">
+    <link rel="icon" href="./favicon.ico">
+    <meta property="og:title" content="Daniel Andres Concha Parra - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://upload.wikimedia.org/wikipedia/commons/9/97/Catedral_de_Chill%C3%A1n_sin_antenas.jpg">
+    <meta property="og:url" content="https://danielandrescp.github.io/wdd230/">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/profile-picture.webp" alt="Daniel Andres Concha Parra profile picture">
+        <span>Daniel Andres Concha Parra</span>
+        <span id="color-mode-toggle"></span>
+    </header>
+    <nav>
+        <div id="mobile-ham-menu">
+            <button id="mobile-ham-menu-button"></button>
+        </div>
+        <a href="./">Home</a>
+        <a href="./chamber/index.html">Chamber</a>
+        <a href="">Site Plan</a>
+        <a href="./form.html" class="current-page">Form</a>
+    </nav>
+    <main class="container max-w-md">
+        <div class="form-container">
+            <h1>Account Creation</h1>
+            <form action="./record.html" method="get" class="course-form">
+                <label> Username*
+                    <input type="text" name="username" id="username" required>
+                </label>
+                <label> Password*
+                    <input type="password" name="password" id="password" required pattern="^[a-zA-Z0-9]{8,}"
+                        title="The password must contain 8 characters or digits">
+                </label>
+                <label> Repeat Password*
+                    <input type="password" name="passwordRepeat" id="passwordRepeat" required
+                        pattern="^[a-zA-Z0-9]{8,}">
+                </label>
+                <label> Email*
+                    <input type="email" name="email" id="email" required pattern="[a-zA-Z0-9._%+\-]+@byui\.edu"
+                        title="Please enter a valid email ending on '@byui.edu'">
+                </label>
+                <label> Page Rating:
+                    <span id="pageRatingValueDisplay">1</span>
+                    <input type="range" name="pageRating" id="pageRating" min="1" max="10" step="1" value="1">
+                </label>
+
+                <input type="submit" value="Create My Account">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="max-w-md">
+            <p>&copy; <span id="copy-year"></span> Daniel Andres Concha Parra - Chile </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="./scripts/getDates.js"></script>
+    <script src="./scripts/headerAndMenu.js"></script>
+    <script src="./scripts/form.js"></script>
+</body>
+
+</html>

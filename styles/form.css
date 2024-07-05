@@ -1,0 +1,75 @@
+:root {
+    --input-padding: 0.7rem;
+
+    /* Technically it is the label*/
+    --input-v-margin: 1.3rem;
+
+    /* Technically it is the input*/
+    --label-bottom-margin: 0.3rem;
+
+    --required-input-border: 10px solid #f77000;
+    --valid-input-border: 10px solid #003fc1;
+
+    --border-radius: 10px;
+
+    --input-max-width: 400px;
+    --form-container-padding: 2rem;
+}
+
+
+.form-container {
+    margin-left: auto;
+    margin-right: auto;
+    /*This is the width of the inputs, plus the padding and border width*/
+    max-width: calc(var(--input-max-width) + (var(--form-container-padding) * 2) + (1px * 2));
+    border-radius: 10px;
+    border: 1px solid #cecece;
+    padding: var(--form-container-padding);
+}
+
+.course-form {
+    max-width: var(--input-max-width);
+}
+
+.course-form label,
+.course-form label input {
+    display: block;
+}
+
+.course-form label input,
+.course-form input[type="submit"] {
+    padding: var(--input-padding);
+    margin-top: var(--label-bottom-margin);
+    width: 100%;
+    max-width: var(--input-max-width);
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    border: 2px solid #cecece;
+}
+
+.course-form label {
+    margin-top: var(--input-v-margin);
+    margin-bottom: var(--input-v-margin);
+    max-width: var(--input-max-width);
+}
+
+.course-form input[type="submit"] {
+    font-size: 1.2rem;
+}
+
+.course-form input[type="submit"]:hover {
+    background-color: #cecece;
+}
+
+.course-form input:required {
+    border-left: var(--required-input-border);
+}
+
+.course-form input:required:valid {
+    border-left: var(--valid-input-border);
+}
+
+.course-form #pageRatingValueDisplay {
+    /* display: block; */
+    font-size: 1.2rem;
+}
