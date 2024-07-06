@@ -62,4 +62,13 @@
     .discover-container .places-photo-gallery figure:hover {
         box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.5);
     }
+
+    .form-page {
+        display: grid;
+    }
+
+    .form-container {
+        margin-left: unset;
+        margin-right: unset;
+    }
 }
