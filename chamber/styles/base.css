@@ -247,6 +247,11 @@ header nav a:not(.menu-logo):hover {
     margin-left: 1rem;
 }
 
+.m-y-3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 /* .max-w-md {
     max-width: 1024px;
     margin-left: auto;
