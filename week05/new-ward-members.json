@@ -1,0 +1,142 @@
+[
+    {
+        "familyName": "Smith",
+        "movedInDate": "2024-03-15",
+        "numberOfRecords": 4,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "John Smith",
+                "gender": "M",
+                "birthdate": "1980-06-21"
+            },
+            {
+                "name": "Jane Smith",
+                "gender": "F",
+                "birthdate": "1982-07-15"
+            },
+            {
+                "name": "Emily Smith",
+                "gender": "F",
+                "birthdate": "2005-02-10"
+            },
+            {
+                "name": "Michael Smith",
+                "gender": "M",
+                "birthdate": "2008-08-30"
+            }
+        ]
+    },
+    {
+        "familyName": "Johnson",
+        "movedInDate": "2023-11-20",
+        "numberOfRecords": 3,
+        "visitedByBishopric": false,
+        "familyMembers": [
+            {
+                "name": "Robert Johnson",
+                "gender": "M",
+                "birthdate": "1975-05-14"
+            },
+            {
+                "name": "Laura Johnson",
+                "gender": "F",
+                "birthdate": "1978-12-25"
+            },
+            {
+                "name": "Emma Johnson",
+                "gender": "F",
+                "birthdate": "2010-09-18"
+            }
+        ]
+    },
+    {
+        "familyName": "Brown",
+        "movedInDate": "2024-05-10",
+        "numberOfRecords": 5,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "David Brown",
+                "gender": "M",
+                "birthdate": "1985-03-12"
+            },
+            {
+                "name": "Sarah Brown",
+                "gender": "F",
+                "birthdate": "1987-11-07"
+            },
+            {
+                "name": "Sophia Brown",
+                "gender": "F",
+                "birthdate": "2012-06-22"
+            },
+            {
+                "name": "Olivia Brown",
+                "gender": "F",
+                "birthdate": "2015-01-30"
+            },
+            {
+                "name": "Lucas Brown",
+                "gender": "M",
+                "birthdate": "2018-04-15"
+            }
+        ]
+    },
+    {
+        "familyName": "Williams",
+        "movedInDate": "2023-08-25",
+        "numberOfRecords": 2,
+        "visitedByBishopric": false,
+        "familyMembers": [
+            {
+                "name": "James Williams",
+                "gender": "M",
+                "birthdate": "1990-02-28"
+            },
+            {
+                "name": "Anna Williams",
+                "gender": "F",
+                "birthdate": "1992-10-14"
+            }
+        ]
+    },
+    {
+        "familyName": "Garcia",
+        "movedInDate": "2024-01-05",
+        "numberOfRecords": 6,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Carlos Garcia",
+                "gender": "M",
+                "birthdate": "1983-09-22"
+            },
+            {
+                "name": "Maria Garcia",
+                "gender": "F",
+                "birthdate": "1984-04-11"
+            },
+            {
+                "name": "Juan Garcia",
+                "gender": "M",
+                "birthdate": "2009-03-05"
+            },
+            {
+                "name": "Luis Garcia",
+                "gender": "M",
+                "birthdate": "2012-07-19"
+            },
+            {
+                "name": "Isabella Garcia",
+                "gender": "F",
+                "birthdate": "2014-12-02"
+            },
+            {
+                "name": "Sophia Garcia",
+                "gender": "F",
+                "birthdate": "2017-05-28"
+            }
+        ]
+    }
+]
