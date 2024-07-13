@@ -66,9 +66,22 @@ async function getMembers(url) {
 
     if (response.ok) {
         const data = await response.json()
-        console.log(data);
+        // console.log(data);
         displayMembers(data)
     }
 }
 
 getMembers(memberURL)
+
+
+document.querySelector("#directory-grid-view").addEventListener("click", () => {
+    const membersContainer = document.querySelector("#directory-members")
+    membersContainer.classList.remove("list")
+    membersContainer.classList.add("grid")
+})
+
+document.querySelector("#directory-list-view").addEventListener("click", () => {
+    const membersContainer = document.querySelector("#directory-members")
+    membersContainer.classList.remove("grid")
+    membersContainer.classList.add("list")
+})

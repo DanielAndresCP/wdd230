@@ -12,7 +12,7 @@
         "name": "Aseos San Francisco",
         "address": "Jardin del Este # 2370 Parcel 24",
         "phone": "+56 9 4567 8901",
-        "website": "WWW.SEGURIVI.CL",
+        "website": "www.segurivi.cl",
         "iconURL": "logo-aseo-francisco.webp",
         "membershipLevel": "Silver",
         "city": "Coihueco"
@@ -39,7 +39,7 @@
         "name": "Car Ñuble Ltda.",
         "address": "Arauco # 949",
         "phone": "+56 9 8765 4321",
-        "website": "WWW.empresascar.CL",
+        "website": "www.empresascar.cl",
         "iconURL": "logo-ferias-car.webp",
         "membershipLevel": "Silver",
         "city": "Chillán"
@@ -57,7 +57,7 @@
         "name": "Donatello Pizzas",
         "address": "Bulnes # 1110",
         "phone": "+56 9 9876 5432",
-        "website": "WWW.donatellopizzas.CL",
+        "website": "www.donatellopizzas.cl",
         "iconURL": "logo-donatello.webp",
         "membershipLevel": "Silver",
         "city": "Chillán"
