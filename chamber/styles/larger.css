@@ -71,4 +71,14 @@
         margin-left: unset;
         margin-right: unset;
     }
+
+    #directory-members.grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #directory-members.list section {
+        grid-template-columns: 1fr 1fr 1fr 1.5fr 1fr 1fr;
+        gap: 1rem;
+
+    }
 }

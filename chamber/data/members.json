@@ -5,7 +5,7 @@
         "phone": "+56 9 8765 4320",
         "website": "www.akami.cl",
         "iconURL": "logo-akami-sushi.webp",
-        "membershipLevel": "bronze",
+        "membershipLevel": "Bronze",
         "city": "Chillán"
     },
     {
@@ -14,7 +14,7 @@
         "phone": "+56 9 4567 8901",
         "website": "WWW.SEGURIVI.CL",
         "iconURL": "logo-aseo-francisco.webp",
-        "membershipLevel": "silver",
+        "membershipLevel": "Silver",
         "city": "Coihueco"
     },
     {
@@ -23,7 +23,7 @@
         "phone": "+56 9 7654 3210",
         "website": "www.bigsmile.cl",
         "iconURL": "logo-big-smile.webp",
-        "membershipLevel": "gold",
+        "membershipLevel": "Gold",
         "city": "Chillán"
     },
     {
@@ -32,16 +32,16 @@
         "phone": "+56 9 1234 5678",
         "website": "www.cabanasloshualles.cl",
         "iconURL": "logo-los-hualles.webp",
-        "membershipLevel": "gold",
+        "membershipLevel": "Gold",
         "city": "Pinto"
     },
     {
         "name": "Car Ñuble Ltda.",
         "address": "Arauco # 949",
         "phone": "+56 9 8765 4321",
-        "website": "WWW.EMPRESASCAR.CL",
+        "website": "WWW.empresascar.CL",
         "iconURL": "logo-ferias-car.webp",
-        "membershipLevel": "silver",
+        "membershipLevel": "Silver",
         "city": "Chillán"
     },
     {
@@ -50,16 +50,16 @@
         "phone": "+56 9 2345 6789",
         "website": "www.cecinassanmartin.cl",
         "iconURL": "logo-cecinas-san-martin.webp",
-        "membershipLevel": "silver",
+        "membershipLevel": "Silver",
         "city": "Chillán"
     },
     {
         "name": "Donatello Pizzas",
         "address": "Bulnes # 1110",
         "phone": "+56 9 9876 5432",
-        "website": "WWW.DONATELLOPIZZAS.CL",
+        "website": "WWW.donatellopizzas.CL",
         "iconURL": "logo-donatello.webp",
-        "membershipLevel": "silver",
+        "membershipLevel": "Silver",
         "city": "Chillán"
     },
     {
@@ -68,7 +68,7 @@
         "phone": "+56 9 3456 7890",
         "website": "www.soycompostable.cl",
         "iconURL": "logo-reem.webp",
-        "membershipLevel": "gold",
+        "membershipLevel": "Gold",
         "city": "Huape"
     }
 ]
