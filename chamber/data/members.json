@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Akami Sushi",
+        "address": "Arauco #850",
+        "phoneNumber": "+56 9 8765 4320",
+        "website": "www.akami.cl",
+        "iconURL": "",
+        "membershipLevel": "bronze",
+        "city": "Chillán"
+    },
+    {
+        "name": "Aseos San Francisco",
+        "address": "Jardin del Este # 2370 Parcel 24",
+        "phoneNumber": "+56 9 4567 8901",
+        "website": "WWW.SEGURIVI.CL",
+        "iconURL": "",
+        "membershipLevel": "silver",
+        "city": "Coihueco"
+    },
+    {
+        "name": "Audio Center Tonno",
+        "address": "18 de Septiembre # 976",
+        "phoneNumber": "+56 9 7654 3210",
+        "website": "www.audiocenter.cl",
+        "iconURL": "",
+        "membershipLevel": "gold",
+        "city": "Chillán"
+    },
+    {
+        "name": "Cabañas y Cafeteria Los Hualles",
+        "address": "Los Pretiles S/N KM 72,1 Las Termas",
+        "phoneNumber": "+56 9 1234 5678",
+        "website": "www.cabanasloshualles.cl",
+        "iconURL": "",
+        "membershipLevel": "gold",
+        "city": "Pinto"
+    },
+    {
+        "name": "Car Ñuble Ltda.",
+        "address": "Arauco # 949",
+        "phoneNumber": "+56 9 8765 4321",
+        "website": "WWW.EMPRESASCAR.CL",
+        "iconURL": "",
+        "membershipLevel": "silver",
+        "city": "Chillán"
+    },
+    {
+        "name": "Cecinas San Martin",
+        "address": "Rio Viejo #629",
+        "phoneNumber": "+56 9 2345 6789",
+        "website": "www.cecinassanmartin.cl",
+        "iconURL": "",
+        "membershipLevel": "silver",
+        "city": "Chillán"
+    },
+    {
+        "name": "Chizen spa",
+        "address": "El Roble # 236",
+        "phoneNumber": "+56 9 9876 5432",
+        "website": "www.chizen.cl",
+        "iconURL": "",
+        "membershipLevel": "bronze",
+        "city": "Chillán"
+    },
+    {
+        "name": "Comercial Reem",
+        "address": "Km 4 Road to Huape Chillán",
+        "phoneNumber": "+56 9 3456 7890",
+        "website": "www.soycompostable.cl",
+        "iconURL": "",
+        "membershipLevel": "gold",
+        "city": "Huape"
+    }
+]
