@@ -110,6 +110,10 @@
                 {
                     "url": "./week05/weather.html",
                     "title": "Third-Party API"
+                },
+                {
+                    "url": "./chamber/directory.html",
+                    "title": "Chamber of Commerce Directory Page"
                 }
             ]
         }
