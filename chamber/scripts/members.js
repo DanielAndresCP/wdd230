@@ -35,7 +35,7 @@ function displayMemberSpotlight(members) {
 
         const aWebsiteEl = document.createElement("a")
         aWebsiteEl.href = member.website
-        aWebsiteEl.textContent = member.website
+        aWebsiteEl.href = `https://${member.website}`
         aWebsiteEl.target = "_blank"
         aWebsiteEl.classList.add("member-website")
 
