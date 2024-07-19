@@ -30,6 +30,15 @@
     .business-card {
         flex-direction: row;
         gap: 2rem;
+        align-items: center;
+    }
+
+    .business-card-text {
+        text-align: left;
+    }
+
+    .business-card.reverse .business-card-text {
+        text-align: right;
     }
 
     .business-card.reverse {
@@ -80,5 +89,9 @@
         grid-template-columns: 1fr 1fr 1fr 1.5fr 1fr 1fr;
         gap: 1rem;
 
+    }
+
+    .weather #forecast-weather-grid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

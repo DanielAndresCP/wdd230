@@ -64,17 +64,24 @@
             </div>
             <div class="weather">
                 <h2>Weather</h2>
-                <img src="./images/placeholder.webp" alt="Placeholder">
-                <div>
-                    <p>Location: Chillán, Chile</p>
-                    <p>Temperature: 20°C</p>
+                <div class="current-weather-grid">
+                    <img id="weather-icon" src="./images/placeholder.webp" alt="Placeholder">
+                    <div>
+                        <p>Location: <span id="weather-location"></span></p>
+                        <p>Weather Description: <span id="weather-description"></span></p>
+                        <p>Temperature: <span id="weather-temperature"></span>°C</p>
+                        <p></p>
+                    </div>
+                </div>
+                <h2>3-day Forecast</h2>
+                <div id="forecast-weather-grid">
                 </div>
             </div>
         </section>
 
         <section class="business-spotlight">
             <h2>Business Spotlight</h2>
-            <div class="business-card">
+            <!-- <div class="business-card">
                 <div class="business-card-img">
                     <img src="./images/placeholder.webp" alt="Placeholder">
                 </div>
@@ -99,7 +106,7 @@
                         labore iusto illum rem, esse, quasi dolor?
                     </p>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <section class="current-events">
@@ -198,6 +205,8 @@
     </footer>
     <script src="./scripts/menu.js"></script>
     <script src="./scripts/lastModifiedInsertion.js"></script>
+    <script src="./scripts/weather.js"></script>
+    <script src="./scripts/memberSpotlight.js"></script>
 </body>
 
 </html>

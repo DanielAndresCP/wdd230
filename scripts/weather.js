@@ -11,7 +11,7 @@ async function apiFetch(url) {
         if (response.ok) {
             const data = await response.json()
             // console.log(data)
-            displayResults(data)
+            displayCurrentResults(data)
         } else {
             throw Error(await response.text())
         }
@@ -20,7 +20,7 @@ async function apiFetch(url) {
     }
 }
 
-function displayResults(data) {
+function displayCurrentResults(data) {
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     const desc = data.weather[0].main;
     const temp = Math.round(data.main.temp)

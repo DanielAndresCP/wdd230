@@ -9,7 +9,7 @@ const imageFolderURL = "https://danielandrescp.github.io/wdd230/chamber/images"
 //     "membershipLevel": "silver",
 //     "city": "Chillán"
 // },
-function displayMembers(members) {
+function displayMemberSpotlight(members) {
     const container = document.querySelector("#directory-members")
 
     for (const member of members) {
@@ -67,7 +67,7 @@ async function getMembers(url) {
     if (response.ok) {
         const data = await response.json()
         // console.log(data);
-        displayMembers(data)
+        displayMemberSpotlight(data)
     }
 }
 
