@@ -291,6 +291,22 @@ header nav a:not(.menu-logo):hover {
 
 
 /* ---Home--- */
+#top-banner {
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+
+
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+#top-banner-close-btn{
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
 .hero-section {
     display: grid;
     grid-template-columns: 1fr;
@@ -402,7 +418,7 @@ header nav a:not(.menu-logo):hover {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .business-card-text {

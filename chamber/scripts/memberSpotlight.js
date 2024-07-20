@@ -56,6 +56,7 @@ function displayMemberSpotlight(data) {
         const source = `${imageFolderURL}/${member.iconURL}`
         imgEl.src = source
         imgEl.alt = `${member.name} logo`
+        imgEl.loading = "lazy"
         imgContainerEl.appendChild(imgEl)
 
         const textContainerEl = document.createElement("div")
