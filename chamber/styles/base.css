@@ -183,7 +183,7 @@ header nav a:not(.menu-logo) {
     font-size: 1.3rem;
     color: var(--primary-color);
     font-weight: var(--font-bold-weight);
-    padding: 0.3rem;
+    padding: 0.6rem;
     border-radius: 10px;
 }
 
