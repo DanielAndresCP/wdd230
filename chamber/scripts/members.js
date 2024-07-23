@@ -37,6 +37,7 @@ function displayMemberSpotlight(members) {
         aWebsiteEl.href = member.website
         aWebsiteEl.href = `https://${member.website}`
         aWebsiteEl.target = "_blank"
+        aWebsiteEl.textContent = member.website
         aWebsiteEl.classList.add("member-website")
 
         const pLevelEl = document.createElement("p")
