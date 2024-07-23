@@ -302,6 +302,7 @@ header nav a:not(.menu-logo):hover {
 }
 
 #top-banner-close-btn{
+    color: var(--primary-text-color);
     background-color: transparent;
     padding: 5px;
     cursor: pointer;
