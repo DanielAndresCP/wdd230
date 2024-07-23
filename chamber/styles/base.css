@@ -232,9 +232,9 @@ header nav a:not(.menu-logo):hover {
 
 
 /* ---Utily Classes--- */
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 .underline {
     text-decoration: underline;
