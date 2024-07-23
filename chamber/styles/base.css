@@ -187,7 +187,7 @@ header nav a:not(.menu-logo) {
     border-radius: 10px;
 }
 
-header nav a:not(.menu-logo):hover {
+header nav a:not(.menu-logo):hover,header nav a:not(.menu-logo).active-page {
     text-decoration: underline;
     background-color: var(--secondary-bg-color);
     color: var(--secondary-text-color);
@@ -220,7 +220,7 @@ header nav a:not(.menu-logo):hover {
 
 }
 
-#join-button {
+#join-button:not(.active-page) {
     padding: 1rem;
     border-radius: 10px;
     background-color: var(--highlight-bg-color);
